@@ -85,14 +85,12 @@
     <distributionManagement>
         <downloadUrl>https://github.com/junit-team/junit4/wiki/Download-and-Install</downloadUrl>
         <snapshotRepository>
-            <id>junit-snapshot-repo</id>
-            <name>Nexus Snapshot Repository</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+          <id>snapshots</id>
+          <url>http://192.168.50.4:8081/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
-            <id>junit-releases-repo</id>
-            <name>Nexus Release Repository</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+          <id>releases</id>
+          <url>http://192.168.50.4:8081/nexus/content/repositories/releases</url>
         </repository>
         <site>
             <id>junit.github.io</id>
@@ -454,17 +452,6 @@
             </plugin>
         </plugins>
     </reporting>
-    <distributionManagement>
-      <snapshotRepository>
-        <id>snapshots</id>
-        <url>http://192.168.50.4:8081/nexus/content/repositories/snapshots</url>
-      </snapshotRepository>
-      <repository>
-        <id>releases</id>
-        <url>http://192.168.50.4:8081/nexus/content/repositories/releases</url>
-      </repository>
-    </distributionManagement>
-
     <profiles>
         <profile>
             <id>junit-release</id>
