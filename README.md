@@ -10,4 +10,3 @@ For more information, please visit:
 
 [![Built on DEV@cloud](http://www.cloudbees.com/sites/default/files/Button-Built-on-CB-1.png)](http://www.cloudbees.com/foss/foss-dev.cb)
 
-
